@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<!--Start of styling-->
+<style>
+    .well{
+        background-color:white;
+        margin-left:25%;
+        margin-right:25%;
+        opacity:0.9;
+        padding-top: -10%;
+    }
+
+    h3{
+        padding-left:20px;
+        padding-right: 20px;
+        
+    }
+</style>
+<!--end of styling-->
+<body>
+     {%extends 'base.html'%} {% block content %} {{block.super}}
+    
+    <body>
+        <div class="well">
+            <h3 style="margin-top: -10px; font-size: 15px; font-weight: bold" >
+                <img style="width:50px;height:50px;border-radius:118px;" src="../static/images/y.jpg"> Monkey D. Luffy
+            </h3>
+            <hr style="background-color: black;">
+            <img class="img-responsive" src="../static/images/q.webp">
+        <div class="uk-card uk-card-default uk-card-body uk-width-3-2@m " style="margin-top: 5%">
+            <p>
+               “ONE PIECE IS REAL!”
+            </p>
+        </div>
+        </div>
+
+        <div class="well">
+            <h3 style="margin-top: -10px; font-size: 15px; font-weight: bold">
+                <img style="width:50px;height:50px;border-radius:118px;" src="../static/images/d.jpg"> Zoro
+            </h3>
+            <hr style="background-color: black;">
+            <img class="img-responsive" src="../static/images/w.jpg">
+            <div class="uk-card uk-card-default uk-card-body uk-width-3-2@m " style="margin-top: 5%">
+                <p>
+                   “Miracles only happen to those who never give up.”
+                </p>
+            </div>
+        </div>
+        <div class="well">
+            <h3 style="margin-top: -10px; font-size: 15px; font-weight: bold">
+                <img style="width:50px;height:50px;border-radius:118px;" src="../static/images/law.jpg"> Trafalgar Law
+            </h3>
+            <hr style="background-color: black;">
+            <img class="img-responsive" src="../static/images/yar.png">
+            <div class="uk-card uk-card-default uk-card-body uk-width-3-2@m " style="margin-top: 5%">
+                <p>
+                   “If you want to protect something, do it right! Don't let them get their way anymore!” 
+                </p>
+            </div>
+        </div>
+    </body>
+    {% endblock %}
+</body>
+</html>

@@ -41,7 +41,16 @@ As a user I would like:
 - Django Bootstrap 3
 - PostgreSQL
 
-## Technologies Used
+## Behavior Driven Development
+
+| Behaviour| Input | Output |
+| ------------- | ----------------- | ------------------ |
+| Save uploaded images | Upload image | Saves image |
+| Update images as app user | update image  | Updates |
+| Search by username| search username | returns the user |
+
+
+## License
 
 This project is licensed under the MIT Open Source license, (c) Yussuf Hussein
 

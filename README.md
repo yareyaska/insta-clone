@@ -30,7 +30,7 @@ As a user I would like:
 * create a virtual environment with `python3.6 -m venv virtual`
 * enter virtual environment `. virtual/bin/activate`
 * run `pip install -r requirements.txt`
-* create Postgres Database and name it `gram` and configure the settings
+* create Postgres Database and name it `insta` and configure the settings
 * run `python3.6 manage.py runserver` to run the application
 
 

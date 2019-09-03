@@ -6,7 +6,7 @@
 ## Description
 
 A web applications that allows users to share comment and like photos posted by users
-<img src="/media/photos/6.png">
+<a href="https://instayu.herokuapp.com/"><img src="/media/photos/6.png"></a>
 
 ## User Stories
 As a user I would like:

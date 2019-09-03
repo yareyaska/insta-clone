@@ -6,7 +6,7 @@
 ## Description
 
 A web applications that allows users to share comment and like photos posted by users
-<img src="/staticfiles/images/6.png">
+<img src="/media/photos/6.png">
 
 ## User Stories
 As a user I would like:
